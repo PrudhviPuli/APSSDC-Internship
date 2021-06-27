@@ -1,0 +1,13 @@
+div{
+	margin-left: 30%;
+    margin-right: 30%;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+h3{
+	background-color: cornsilk;
+    text-align: center;
+    padding: 15px;
+    border: groove;	
+}

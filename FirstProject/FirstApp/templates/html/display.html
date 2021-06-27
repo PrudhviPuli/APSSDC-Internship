@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Display of My Form</title>
+</head>
+<body background="{%static 'images/djangologo.jpg'%}">
+	<h2>Hi {{username}} </h2>
+	<table border="1">
+		<tr>
+			<thead>
+				<th>Username</th>
+				<th>Roll no</th>
+				<th>Email Id</th>
+			</thead>
+		</tr>
+		<tr>
+			<tbody>
+				<td> {{username}} </td>
+				<td> {{rno}} </td>
+				<td> {{email}} </td>
+			</tbody>
+		</tr>
+	</table>
+	
+
+</body>
+</html>

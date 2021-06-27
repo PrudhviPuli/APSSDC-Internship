@@ -1,0 +1,21 @@
+{% load static %} 
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>Internal JS</title>
+ 	<script type="text/javascript">
+ 		function generatealert() {
+ 			alert("Loser")
+ 		}
+ 	</script>
+ 	<script type="text/javascript" src="{% static 'js/externalexample.js' %}"></script>
+ </head>
+ <body>
+ 	<h2>Internal JS Example</h2>
+ 	<input type="button" name="button" value="Hit me 1" onclick="generatealert()">
+
+ 	<h2>External JS Example</h2>
+ 	<input type="button" name="button" value="Hit me 2" onclick="generatealert2()">
+ </body>
+ </html>
